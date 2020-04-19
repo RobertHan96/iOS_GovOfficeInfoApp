@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042408A4243AE2DB00F48517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042408A3243AE2DB00F48517 /* AppDelegate.swift */; };
+		042408A8243AE2DB00F48517 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042408A7243AE2DB00F48517 /* MainViewController.swift */; };
+		042408AD243AE2E100F48517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042408AC243AE2E100F48517 /* Assets.xcassets */; };
+		042408B0243AE2E100F48517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042408AE243AE2E100F48517 /* LaunchScreen.storyboard */; };
+		04C08E98243D8C1B00457ECD /* OfficeIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C08E97243D8C1B00457ECD /* OfficeIntroViewController.swift */; };
+		04C08E9D243EB4CE00457ECD /* OfficeTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C08E9B243EB4CE00457ECD /* OfficeTaskTableViewCell.swift */; };
+		04C08E9E243EB4CE00457ECD /* OfficeTaskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C08E9C243EB4CE00457ECD /* OfficeTaskTableViewCell.xib */; };
+		04C08EA0243ED0AF00457ECD /* OfficeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C08E9F243ED0AF00457ECD /* OfficeDetailViewController.swift */; };
+		04C08EA2243F034F00457ECD /* OfficeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C08EA1243F034F00457ECD /* OfficeListViewController.swift */; };
+		04C08EA5243F058F00457ECD /* OfficeListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C08EA3243F058F00457ECD /* OfficeListCollectionViewCell.swift */; };
+		04C08EA6243F058F00457ECD /* OfficeListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C08EA4243F058F00457ECD /* OfficeListCollectionViewCell.xib */; };
+		04C08EA82441721100457ECD /* OfficeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C08EA72441721100457ECD /* OfficeModel.swift */; };
+		F4B1F83AFAC254D54EA94C02 /* Pods_GovOfficeInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582F3A48F53C293B50232959 /* Pods_GovOfficeInfo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042408A0243AE2DB00F48517 /* GovOfficeInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GovOfficeInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042408A3243AE2DB00F48517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042408A7243AE2DB00F48517 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		042408AC243AE2E100F48517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042408AF243AE2E100F48517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042408B1243AE2E100F48517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C08E97243D8C1B00457ECD /* OfficeIntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeIntroViewController.swift; sourceTree = "<group>"; };
+		04C08E9B243EB4CE00457ECD /* OfficeTaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeTaskTableViewCell.swift; sourceTree = "<group>"; };
+		04C08E9C243EB4CE00457ECD /* OfficeTaskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfficeTaskTableViewCell.xib; sourceTree = "<group>"; };
+		04C08E9F243ED0AF00457ECD /* OfficeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeDetailViewController.swift; sourceTree = "<group>"; };
+		04C08EA1243F034F00457ECD /* OfficeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeListViewController.swift; sourceTree = "<group>"; };
+		04C08EA3243F058F00457ECD /* OfficeListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeListCollectionViewCell.swift; sourceTree = "<group>"; };
+		04C08EA4243F058F00457ECD /* OfficeListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfficeListCollectionViewCell.xib; sourceTree = "<group>"; };
+		04C08EA72441721100457ECD /* OfficeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeModel.swift; sourceTree = "<group>"; };
+		582F3A48F53C293B50232959 /* Pods_GovOfficeInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GovOfficeInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8411EC731F4790143F734ECF /* Pods-GovOfficeInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovOfficeInfo.release.xcconfig"; path = "Target Support Files/Pods-GovOfficeInfo/Pods-GovOfficeInfo.release.xcconfig"; sourceTree = "<group>"; };
+		AF44FD0387F8C65ABFB4B109 /* Pods-GovOfficeInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GovOfficeInfo.debug.xcconfig"; path = "Target Support Files/Pods-GovOfficeInfo/Pods-GovOfficeInfo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0424089D243AE2DB00F48517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B1F83AFAC254D54EA94C02 /* Pods_GovOfficeInfo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04240897243AE2DB00F48517 = {
+			isa = PBXGroup;
+			children = (
+				042408A2243AE2DB00F48517 /* GovOfficeInfo */,
+				042408A1243AE2DB00F48517 /* Products */,
+				9EAF2B74704A57134F5E8E2D /* Pods */,
+				67AA34308EE4770C18F61AFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		042408A1243AE2DB00F48517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042408A0243AE2DB00F48517 /* GovOfficeInfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042408A2243AE2DB00F48517 /* GovOfficeInfo */ = {
+			isa = PBXGroup;
+			children = (
+				042408B1243AE2E100F48517 /* Info.plist */,
+				042408A3243AE2DB00F48517 /* AppDelegate.swift */,
+				042408A7243AE2DB00F48517 /* MainViewController.swift */,
+				04C08E9F243ED0AF00457ECD /* OfficeDetailViewController.swift */,
+				04C08E97243D8C1B00457ECD /* OfficeIntroViewController.swift */,
+				04C08EA1243F034F00457ECD /* OfficeListViewController.swift */,
+				042408B7243AEA1300F48517 /* Resource */,
+				04C08E9B243EB4CE00457ECD /* OfficeTaskTableViewCell.swift */,
+				04C08E9C243EB4CE00457ECD /* OfficeTaskTableViewCell.xib */,
+				04C08EA3243F058F00457ECD /* OfficeListCollectionViewCell.swift */,
+				04C08EA4243F058F00457ECD /* OfficeListCollectionViewCell.xib */,
+				04C08EA72441721100457ECD /* OfficeModel.swift */,
+			);
+			path = GovOfficeInfo;
+			sourceTree = "<group>";
+		};
+		042408B7243AEA1300F48517 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				042408AE243AE2E100F48517 /* LaunchScreen.storyboard */,
+				042408AC243AE2E100F48517 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		67AA34308EE4770C18F61AFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				582F3A48F53C293B50232959 /* Pods_GovOfficeInfo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EAF2B74704A57134F5E8E2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF44FD0387F8C65ABFB4B109 /* Pods-GovOfficeInfo.debug.xcconfig */,
+				8411EC731F4790143F734ECF /* Pods-GovOfficeInfo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0424089F243AE2DB00F48517 /* GovOfficeInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042408B4243AE2E100F48517 /* Build configuration list for PBXNativeTarget "GovOfficeInfo" */;
+			buildPhases = (
+				9B7D78786A7AA1A901184EE1 /* [CP] Check Pods Manifest.lock */,
+				0424089C243AE2DB00F48517 /* Sources */,
+				0424089D243AE2DB00F48517 /* Frameworks */,
+				0424089E243AE2DB00F48517 /* Resources */,
+				1763C12881693A93689E4127 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GovOfficeInfo;
+			productName = GovOfficeInfo;
+			productReference = 042408A0243AE2DB00F48517 /* GovOfficeInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04240898243AE2DB00F48517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					0424089F243AE2DB00F48517 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0424089B243AE2DB00F48517 /* Build configuration list for PBXProject "GovOfficeInfo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04240897243AE2DB00F48517;
+			productRefGroup = 042408A1243AE2DB00F48517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0424089F243AE2DB00F48517 /* GovOfficeInfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0424089E243AE2DB00F48517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C08EA6243F058F00457ECD /* OfficeListCollectionViewCell.xib in Resources */,
+				042408B0243AE2E100F48517 /* LaunchScreen.storyboard in Resources */,
+				042408AD243AE2E100F48517 /* Assets.xcassets in Resources */,
+				04C08E9E243EB4CE00457ECD /* OfficeTaskTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1763C12881693A93689E4127 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GovOfficeInfo/Pods-GovOfficeInfo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GovOfficeInfo/Pods-GovOfficeInfo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GovOfficeInfo/Pods-GovOfficeInfo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B7D78786A7AA1A901184EE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GovOfficeInfo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0424089C243AE2DB00F48517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C08EA0243ED0AF00457ECD /* OfficeDetailViewController.swift in Sources */,
+				042408A8243AE2DB00F48517 /* MainViewController.swift in Sources */,
+				042408A4243AE2DB00F48517 /* AppDelegate.swift in Sources */,
+				04C08E9D243EB4CE00457ECD /* OfficeTaskTableViewCell.swift in Sources */,
+				04C08EA5243F058F00457ECD /* OfficeListCollectionViewCell.swift in Sources */,
+				04C08EA2243F034F00457ECD /* OfficeListViewController.swift in Sources */,
+				04C08E98243D8C1B00457ECD /* OfficeIntroViewController.swift in Sources */,
+				04C08EA82441721100457ECD /* OfficeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		042408AE243AE2E100F48517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042408AF243AE2E100F48517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042408B2243AE2E100F48517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		042408B3243AE2E100F48517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042408B5243AE2E100F48517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF44FD0387F8C65ABFB4B109 /* Pods-GovOfficeInfo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KMX75GUSK;
+				INFOPLIST_FILE = GovOfficeInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = roberthan.GovOfficeInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042408B6243AE2E100F48517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8411EC731F4790143F734ECF /* Pods-GovOfficeInfo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KMX75GUSK;
+				INFOPLIST_FILE = GovOfficeInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = roberthan.GovOfficeInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0424089B243AE2DB00F48517 /* Build configuration list for PBXProject "GovOfficeInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042408B2243AE2E100F48517 /* Debug */,
+				042408B3243AE2E100F48517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042408B4243AE2E100F48517 /* Build configuration list for PBXNativeTarget "GovOfficeInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042408B5243AE2E100F48517 /* Debug */,
+				042408B6243AE2E100F48517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04240898243AE2DB00F48517 /* Project object */;
+}
