@@ -11,7 +11,9 @@ class OfficeDetailViewController: UIViewController {
         setupUI()
         makeConstratins()
         setupOfficeLocation()
+        
     }
+        
     let ad = UIApplication.shared.delegate as? AppDelegate
     
     let labelOfficeName = UILabel().then {
@@ -58,7 +60,7 @@ class OfficeDetailViewController: UIViewController {
     func setupUI() {
         view.backgroundColor = .white
         view.addSubview(labelOfficeName)
-        view.addSubview(mapView)
+        mapViewContainer.addSubview(mapView)
         view.addSubview(labelOfficeNumber)
         view.addSubview(labelOfficeAddress)
         view.addSubview(btnGotoPublicSite)

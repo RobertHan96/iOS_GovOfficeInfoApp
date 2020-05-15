@@ -106,6 +106,7 @@ class MainViewController: UIViewController {
             make.top.equalTo(self.view.safeAreaLayoutGuide.snp.top).offset(30)
             make.left.equalTo(self.view.safeAreaLayoutGuide.snp.left).offset(20)
         }
+        
         btnContainer.snp.makeConstraints { (make) in
             make.left.equalToSuperview().offset(10)
             make.right.equalToSuperview().offset(-10)

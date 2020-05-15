@@ -4,14 +4,15 @@ import Then
 import SnapKit
 
 class OfficeIntroViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
         makeConstrains()
+        
     }
+    
     let ad = UIApplication.shared.delegate as? AppDelegate
-    let guItems : [String] = ["여권 발급", "지방세 신고", "차량 등록", "복지 상담", "도로 정비", "폐기물"]
-    let taxItems : [String] = ["연말정산", "부가가치세 신고", "상속", "세무 상담"]
 
     let officeTaskTable : UITableView = UITableView().then {
         $0.separatorStyle = .none
@@ -34,9 +35,9 @@ class OfficeIntroViewController: UIViewController, UITableViewDelegate, UITableV
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if ad?.screenID == 1 {
-            return guItems.count
+            return dataFetchManager.shared.guItems.count
         } else {
-            return taxItems.count
+            return dataFetchManager.shared.taxItems.count
         }
     }
     
@@ -44,22 +45,20 @@ class OfficeIntroViewController: UIViewController, UITableViewDelegate, UITableV
         guard let officeTaskCell = tableView.dequeueReusableCell(withIdentifier: "officeTaskItemCell", for: indexPath) as? OfficeTaskTableViewCell else {return UITableViewCell()}
         
         if ad?.screenID == 1 {
-            officeTaskCell.labelOfficeTask.text = guItems[indexPath.row]
+            officeTaskCell.labelOfficeTask.text = dataFetchManager.shared.guItems[indexPath.row]
         } else {
-            officeTaskCell.labelOfficeTask.text = taxItems[indexPath.row]
+            officeTaskCell.labelOfficeTask.text = dataFetchManager.shared.taxItems[indexPath.row]
         }
         return officeTaskCell
     }
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-//        cell.alpha = 0
         cell.transform = CGAffineTransform(translationX: tableView.bounds.width, y: 0)
         UIView.animate(
             withDuration: 0.5,
             delay: 0.05 * Double(indexPath.row),
             options: [.curveEaseInOut],
             animations: {
-//                cell.alpha = 1
                 cell.transform = CGAffineTransform(translationX: 0, y: 0)
         })
     }

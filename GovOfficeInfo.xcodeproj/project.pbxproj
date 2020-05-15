@@ -75,18 +75,12 @@
 		042408A2243AE2DB00F48517 /* GovOfficeInfo */ = {
 			isa = PBXGroup;
 			children = (
-				042408B1243AE2E100F48517 /* Info.plist */,
 				042408A3243AE2DB00F48517 /* AppDelegate.swift */,
-				042408A7243AE2DB00F48517 /* MainViewController.swift */,
-				04C08E9F243ED0AF00457ECD /* OfficeDetailViewController.swift */,
-				04C08E97243D8C1B00457ECD /* OfficeIntroViewController.swift */,
-				04C08EA1243F034F00457ECD /* OfficeListViewController.swift */,
 				042408B7243AEA1300F48517 /* Resource */,
-				04C08E9B243EB4CE00457ECD /* OfficeTaskTableViewCell.swift */,
-				04C08E9C243EB4CE00457ECD /* OfficeTaskTableViewCell.xib */,
-				04C08EA3243F058F00457ECD /* OfficeListCollectionViewCell.swift */,
-				04C08EA4243F058F00457ECD /* OfficeListCollectionViewCell.xib */,
-				04C08EA72441721100457ECD /* OfficeModel.swift */,
+				04B80B11246E57E9004B7D47 /* Controller */,
+				04B80B10246E57E4004B7D47 /* View */,
+				04B80B0F246E57D2004B7D47 /* Model */,
+				042408B1243AE2E100F48517 /* Info.plist */,
 			);
 			path = GovOfficeInfo;
 			sourceTree = "<group>";
@@ -98,6 +92,36 @@
 				042408AC243AE2E100F48517 /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		04B80B0F246E57D2004B7D47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04C08EA72441721100457ECD /* OfficeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04B80B10246E57E4004B7D47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04C08E9B243EB4CE00457ECD /* OfficeTaskTableViewCell.swift */,
+				04C08E9C243EB4CE00457ECD /* OfficeTaskTableViewCell.xib */,
+				04C08EA3243F058F00457ECD /* OfficeListCollectionViewCell.swift */,
+				04C08EA4243F058F00457ECD /* OfficeListCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04B80B11246E57E9004B7D47 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				042408A7243AE2DB00F48517 /* MainViewController.swift */,
+				04C08E97243D8C1B00457ECD /* OfficeIntroViewController.swift */,
+				04C08EA1243F034F00457ECD /* OfficeListViewController.swift */,
+				04C08E9F243ED0AF00457ECD /* OfficeDetailViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		67AA34308EE4770C18F61AFD /* Frameworks */ = {

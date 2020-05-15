@@ -9,15 +9,6 @@ class OfficeListViewController: UIViewController, UICollectionViewDelegate, UICo
         makeConstrains()
     }
     let ad = UIApplication.shared.delegate as? AppDelegate
-    let guList : [String] = ["종로", "중구", "성동", "용산", "광진", "동대문", "중랑", "성북", "강북",
-                            "도봉", "노원", "은평", "서대문", "마포", "양천", "강서", "구로", "금천",
-                            "영등포", "동작", "관악", "서초", "강남", "송파", "강동"
-                            ]
-    let taxList : [String] = ["종로", "중구(중구 일부)", "남대문(중구 일부)", "용산", "성북", "서대문",                           "강북", "은평",  "마포", "영등포", "강서", "양천", "구로",
-                              "동작(영등포 일부)","금천", "관악", "강남(강남 일부)", "삼성(강남 일부)",
-                                "역삼(강남 일부", "반포(서초 일부)", "서초(서초 일부)", "송파(송파 일부)",
-                                "잠실(송파 일부)", "성동/광진", "강북", "노원/창동",  "동대문", "중랑", "강동"]
-
     let btnTitle = UIButton().then {
         $0.setTitle("지역별 위치 안내", for: .normal)
         $0.titleLabel?.font = UIFont.boldSystemFont(ofSize: 30)
@@ -39,9 +30,9 @@ class OfficeListViewController: UIViewController, UICollectionViewDelegate, UICo
         
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if ad?.screenID == 1 {
-            return guList.count
+            return dataFetchManager.shared.guList.count
         } else {
-            return taxList.count
+            return dataFetchManager.shared.taxList.count
         }
     }
     
@@ -49,10 +40,10 @@ class OfficeListViewController: UIViewController, UICollectionViewDelegate, UICo
         guard let officeListItem = collectionView.dequeueReusableCell(withReuseIdentifier: "officeListItem", for: indexPath) as? OfficeListCollectionViewCell
             else { return UICollectionViewCell() }
         if ad?.screenID == 1 {
-            officeListItem.labelOfficeName.text = guList[indexPath.row]
+            officeListItem.labelOfficeName.text = dataFetchManager.shared.guList[indexPath.row]
             return officeListItem
         } else {
-            officeListItem.labelOfficeName.text = taxList[indexPath.row]
+            officeListItem.labelOfficeName.text = dataFetchManager.shared.taxList[indexPath.row]
             return officeListItem
         }
     }
